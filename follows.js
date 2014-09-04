@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'a9KrKo29wXCznae6xgGhVX7sGS1Q8E809vFAKWPoFU5g4RQy', // Unique master Xively API key to be used as a default
-		defaultFeeds	= '1129833362', // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= [1129833362], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Water Automation', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
