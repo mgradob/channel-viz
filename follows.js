@@ -13,7 +13,7 @@
 	*/
 
 	var defaultKey		= 'a9KrKo29wXCznae6xgGhVX7sGS1Q8E809vFAKWPoFU5g4RQy', // Unique master Xively API key to be used as a default
-		defaultFeeds	= ["Atm_Humidity","Atm_Temperature","Cons_Humidity","Evapotranspiration","HM1_S1","HM1_S2","HM2_S1","HM2_S2","HM3_S1","HM3_S2","Pump_State","Radiation","Water_Flow","Wind_Speed"], // Comma separated array of Xively Feed ID numbers
+		defaultFeeds	= ['Atm_Humidity','Atm_Temperature','Cons_Humidity','Evapotranspiration','HM1_S1','HM1_S2','HM2_S1','HM2_S2','HM3_S1','HM3_S2','Pump_State','Radiation','Water_Flow','Wind_Speed'], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Water Automation', // Replaces Xively logo in the header
 		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 0, // Default interval for data to be displayed (in seconds)
