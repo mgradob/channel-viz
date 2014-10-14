@@ -159,7 +159,7 @@
 										max_lim = 3;
 									}
 									if (datastream.id == 'Evapotranspiration'){
-										max_lim = 10;
+										max_lim = 20;
 									}
 									
 						 			// Build Graph
