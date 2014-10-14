@@ -149,6 +149,18 @@
 									if (datastream.id == 'Radiation'){
 										max_lim = 1000;
 									}
+									if (datastream.id == 'Water_Flow'){
+										max_lim = 20;
+									}
+									if (datastream.id == 'Wind_Speed'){
+										max_lim = 10;
+									}
+									if (datastream.id == 'Pump_State'){
+										max_lim = 3;
+									}
+									if (datastream.id == 'Evapotranspiration'){
+										max_lim = 10;
+									}
 									
 						 			// Build Graph
 									var graph = new Rickshaw.Graph( {
