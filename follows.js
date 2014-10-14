@@ -146,7 +146,7 @@
 									var min_lim = 0;
 									var max_lim = 70;
 									
-									if (datastream.id == "Radiation"){
+									if (datastream.id == 'Radiation'){
 										max_lim = 100;
 									}
 									
