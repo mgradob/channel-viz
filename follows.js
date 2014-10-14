@@ -147,7 +147,7 @@
 									var max_lim = 70;
 									
 									if (datastream.id == 'Radiation'){
-										max_lim = 100;
+										max_lim = 1000;
 									}
 									
 						 			// Build Graph
